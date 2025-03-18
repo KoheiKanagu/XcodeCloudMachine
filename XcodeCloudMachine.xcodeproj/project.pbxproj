@@ -55,6 +55,7 @@
 				7D3C833C2D89BB4400AFD912 /* Sources */,
 				7D3C833D2D89BB4400AFD912 /* Frameworks */,
 				7D3C833E2D89BB4400AFD912 /* Resources */,
+				7D3C83522D89BFF200AFD912 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -113,6 +114,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D3C83522D89BFF200AFD912 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "uname -m\nsystem_profiler SPSoftwareDataType SPHardwareDataType\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D3C833C2D89BB4400AFD912 /* Sources */ = {
