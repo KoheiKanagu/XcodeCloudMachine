@@ -56,6 +56,7 @@
 				7D3C833D2D89BB4400AFD912 /* Frameworks */,
 				7D3C833E2D89BB4400AFD912 /* Resources */,
 				7D3C83522D89BFF200AFD912 /* ShellScript */,
+				7D3C83672D8A5F2600AFD912 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,6 +133,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "uname -m\nsystem_profiler SPSoftwareDataType SPHardwareDataType SPMemoryDataType SPDisplaysDataType\n";
+		};
+		7D3C83672D8A5F2600AFD912 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sysctl machdep.cpu\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
