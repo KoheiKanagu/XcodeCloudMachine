@@ -131,7 +131,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "uname -m\nsystem_profiler SPSoftwareDataType SPHardwareDataType\n";
+			shellScript = "uname -m\nsystem_profiler SPSoftwareDataType SPHardwareDataType SPMemoryDataType SPDisplaysDataType\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
